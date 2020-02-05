@@ -22,7 +22,7 @@ const render = (root, state) => {
 	header.style.overflow = 'auto';
 
 	const header_tittle = document.createElement('h1');
-	const tittle_textNode = document.createTextNode('Othello')
+	const tittle_textNode = document.createTextNode('OTHELLO')
 	header_tittle.appendChild(tittle_textNode)
 	header_tittle.style.backgroundColor = 'black'
 	header_tittle.style.color = 'white'
